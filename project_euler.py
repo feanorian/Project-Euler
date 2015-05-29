@@ -25,7 +25,8 @@ myarray=[]
 #this is where the magic happens
 for i in range(101):
     mult(i)
-    append_array(myarray,i)
+    if multi(i) == True:
+        append_array(myarray,i)
 arraysum(myarray)
 
 
