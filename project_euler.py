@@ -1,5 +1,6 @@
-'''list all multiples of 3 and 5 from 0 to 1000 and return the sum'''
+#list all multiples of 3 and 5 from 0 to 1000 and return the sum
 
+'''This function checks to see if numbers are multiples of 3 or 5'''
 def mult(a_number):
     if a_number % 3 == 0 or a_number % 5 == 0:
         print a_number
@@ -22,7 +23,7 @@ def arraysum(array):
 myarray=[]
 
 #this is where the magic happens
-for i in range(100):
+for i in range(101):
     mult(i)
     append_array(myarray,i)
 arraysum(myarray)
