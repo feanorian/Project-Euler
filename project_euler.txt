@@ -1,0 +1,11 @@
+'''list all multiples of 3 and 5 from 0 to 1000 and return the sum'''
+
+def mult(a_ number):
+    if a_numbers % 15 = 0
+       return True
+
+def append_array(myarray,x):
+'''appends item to array'''
+	   
+def sum_number(number):
+'''sums all the numbers'''
