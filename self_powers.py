@@ -7,4 +7,6 @@ def powers(n):
     m = 0
     for i in range(1,n):
         m += (i**i)
-    return m
+    
+    mystring = str(m)
+    return mystring[-10:]
